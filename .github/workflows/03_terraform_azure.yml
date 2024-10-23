@@ -15,7 +15,7 @@ env:
   CONTAINER_NAME: githubactionstfaz
   BLOB_NAME: tf_az_terraform.tfstate
   
-  WORKING_DIRECTORY: web_app_sql_database
+  WORKING_DIRECTORY: terraform/web_app_sql_database
   
 jobs:
   scan-terraform-config:
