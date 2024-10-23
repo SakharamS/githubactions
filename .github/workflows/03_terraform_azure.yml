@@ -1,4 +1,4 @@
-name: 'Azure Infra with Terraform'
+name: '03 Azure Infra with Terraform'
 
 on:
   push:
