@@ -59,9 +59,6 @@ jobs:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
       uses: actions/checkout@v2
-
-    - name: Check Azure CLI installation
-      run: az --version
                 
     - name: Login to Azure with Service Principal
       uses: Azure/login@v1.4.6
