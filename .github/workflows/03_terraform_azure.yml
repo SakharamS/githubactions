@@ -1,4 +1,4 @@
-name: 'Create Infra with Terraform'
+name: 'Azure Infra with Terraform'
 
 on:
   push:
