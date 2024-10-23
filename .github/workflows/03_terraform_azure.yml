@@ -140,7 +140,7 @@ jobs:
         ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
         ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
     # To run terraform plan only when there is a pull request or push to the repo
-      if: github.event_name == 'pull_request' # 'push' # 
+    #   if: github.event_name == 'pull_request' # 'push' # 
       run: |
         terraform plan -no-color 
         # terraform plan -out tfplan -no-color 
