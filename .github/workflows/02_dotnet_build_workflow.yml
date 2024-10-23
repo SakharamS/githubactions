@@ -1,4 +1,4 @@
-name: DotNet Workflow
+name: DotNet - Build Workflow
 
 on:
   push:
