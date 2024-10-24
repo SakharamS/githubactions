@@ -1,5 +1,5 @@
 resource_group_name     = "rg-terraform-web-sql-db"
-resource_group_location = "westeurope"
+resource_group_location = "centralindia"
 app_service_plan_name   = "cld-appserviceplan-web-21"
 app_service_name        = "cld-terraform-web-021"
 sql_server_name         = "cld-terraform-sqlserver-021"
